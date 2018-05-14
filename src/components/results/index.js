@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 
-import './index.scss';
-
 import goldMedal from '../../gold_medal.png';
 import silverMedal from '../../silver_medal.png';
 import bronzeMedal from '../../bronze_medal.png';

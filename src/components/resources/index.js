@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { programmingCourses, karelCourses } from '../../api/courses';
-import './index.scss';
 
 class Resources extends Component {
   constructor(props) {
