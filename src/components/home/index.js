@@ -6,7 +6,7 @@ import NewsFeeds from './newsFeeds';
 class Home extends Component {
   render() {
     return (
-      <div className='page'>
+      <div className='page-content'>
         <Hero />
         <NewsFeeds />
       </div>

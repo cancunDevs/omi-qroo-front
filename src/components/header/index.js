@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 const Header = () => {
   return (
-    <div className='container-fluid'>
+    <div className='container-fluid page-header'>
       <nav className='navbar navbar-expand-lg navbar-dark bg-dark'>
         <NavLink to='/' className='navbar-brand'>OMI - Quintana Roo</NavLink>
 
