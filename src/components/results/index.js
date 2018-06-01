@@ -359,7 +359,7 @@ class Results extends Component {
 
   render() {
     return (
-      <div>
+      <div className="page-content">
         <div className='form-group'>
           <select
             className='form-control'

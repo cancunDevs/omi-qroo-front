@@ -113,7 +113,7 @@ class Resources extends Component {
     const { currentPage, title, description } = this.state;
 
     return (
-      <div className='page'>
+      <div className='page-content'>
         <div className='container-fluid'>
           <h1>{title}</h1>
           <p className='lead'>

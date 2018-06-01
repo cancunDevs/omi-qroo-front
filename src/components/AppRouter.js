@@ -12,7 +12,7 @@ import Contact from './contact';
 class AppRouter extends Component {
   render() {
     return (
-      <div>
+      <div className="page-wrapper">
         <Header />
         <Switch>
           <Route path='/material' component={Resources} exact />
