@@ -3,7 +3,7 @@ export const programmingCourses = [
     name: 'Introducción',
     description: 'Forma de trabajo e Introducción a OmegaUp.',
     url: 'https://omegaup.com/course/Curso-OMI/assignment/COMI-intro',
-    resourceURL: 'someMaterialRelatedURL',
+    // resourceURL: 'someMaterialRelatedURL',
   },
   {
     name: 'Programación Básica',

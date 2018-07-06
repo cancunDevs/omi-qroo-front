@@ -9,7 +9,7 @@ const Feed = ({ title, date, description, url }) => {
         <h5>{title}</h5>
         <small>{date}</small>
       </div>
-      <p className='mb-1'>{description}</p>
+      <p className='mb-1' dangerouslySetInnerHTML={{ __html: description }} />
     </a>
   );
 };
