@@ -6,8 +6,8 @@ import Home from './home';
 import Application from './application';
 import Results from './results';
 import Resources from './resources';
-import Announcements from './announcements';
-import Contact from './contact';
+// import Announcements from './announcements';
+// import Contact from './contact';
 
 class AppRouter extends Component {
   render() {
@@ -18,8 +18,8 @@ class AppRouter extends Component {
           <Route path='/material' component={Resources} exact />
           <Route path='/convocatoria' component={Application} />
           <Route path='/resultados' component={Results} />
-          <Route path='/anuncios' component={Announcements} />
-          <Route path='/contacto' component={Contact} />
+          {/* <Route path='/anuncios' component={Announcements} /> */}
+          {/* <Route path='/contacto' component={Contact} /> */}
           <Route path='/' component={Home} exact />
         </Switch>
         <Footer />
