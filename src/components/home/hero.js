@@ -1,10 +1,12 @@
 import React from 'react';
+import omiQRooLogo from '../../omi-qroo-logo.png';
 
 const Hero = () => {
   return (
     <div className='jumbotron jumbotron-fluid'>
       <div className='container'>
-        <h1 className='display-4'>Olimpiada de Informática Quintana Roo</h1>
+        {/* <h1 className='display-4'>Olimpiada de Informática Quintana Roo</h1> */}
+        <img src={omiQRooLogo} alt='omi-qroo' className='omi-qroo-logo' />
         <p className='lead'>
           La <b>Olimpiada Mexicana de Informática (OMI)</b> es un concurso a nivel nacional
           para jóvenes con facilidad para resolver problemas prácticos mediante la lógica

@@ -40,6 +40,18 @@
   background-color: #212529;
   height: 60px;
 }
+/* home */
+.jumbotron {
+  padding-top: 0;
+}
+
+.jumbotron > .container {
+  padding-top: 0;
+}
+
+.omi-qroo-logo {
+  height: 450px;
+}
 
 /* Resources */
 .course-list {
