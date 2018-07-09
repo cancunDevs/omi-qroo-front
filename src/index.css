@@ -50,8 +50,8 @@
 }
 
 .omi-qroo-logo {
-  height: 450px; 
-  /* TODO: Fix size on mobile */
+  width: 100%;
+  height: auto; 
 }
 
 /* Resources */
