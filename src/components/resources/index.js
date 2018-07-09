@@ -24,7 +24,7 @@ class Resources extends Component {
   renderSelectResources() {
     const { currentPage } = this.state;
     return (
-      <ul className='nav nav-pills mb-3'>
+      <ul className='nav nav-pills'>
         <li className='nav-item'>
           <button
             className={currentPage ? 'nav-link active' : 'nav-link'}
@@ -114,14 +114,14 @@ class Resources extends Component {
 
     return (
       <div className='page-content'>
-        <div className='container-fluid'>
+        <div className='container'>
           <h1>{title}</h1>
           <p className='lead'>
             {description}
           </p>
+          {this.renderSelectResources()}
         </div>
 
-        {this.renderSelectResources()}
 
         {currentPage ? this.renderOMIResources() : this.renderOMIPSResources() }
       </div>

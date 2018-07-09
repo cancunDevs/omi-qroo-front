@@ -359,17 +359,19 @@ class Results extends Component {
 
   render() {
     return (
-      <div className="page-content">
-        <div className='form-group'>
-          <select
-            className='form-control'
-            onChange={this.handleOnChange}
-          >
-            <option value=''>Selecciona el año</option>
-            {this.renderOptions()}
-          </select>
+      <div className='page-content'>
+        <div className='container'>
+          <div className='form-group'>
+            <select
+              className='form-control'
+              onChange={this.handleOnChange}
+            >
+              <option value=''>Selecciona el año</option>
+              {this.renderOptions()}
+            </select>
+          </div>
+          {this.renderResults()}
         </div>
-        {this.renderResults()}
       </div>
     );
   }
