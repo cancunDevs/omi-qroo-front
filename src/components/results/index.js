@@ -376,7 +376,6 @@ class Results extends Component {
               className='form-control'
               onChange={this.handleOnChange}
             >
-              {/* <option value=''>Selecciona el año</option> */}
               {this.renderOptions()}
             </select>
           </div>
