@@ -45,6 +45,7 @@ class Results extends Component {
             'Juan Manuel Ucan Cih',
             'Nelly Liliana Corona Méndez',
           ],
+          default: true,
         },
         {
           year: 2017,
@@ -267,6 +268,11 @@ class Results extends Component {
     };
   }
 
+  componentWillMount() {
+    const { results } = this.state;
+    this.setState({ currentDelegation: results[0] });
+  }
+
   getMedalImage(type) {
     if (type === 'gold') return goldMedal;
     if (type === 'silver') return silverMedal;
@@ -361,12 +367,16 @@ class Results extends Component {
     return (
       <div className='page-content'>
         <div className='container'>
+          <h1>Resultados de la Delegación</h1>
           <div className='form-group'>
+            <label>
+              Selecciona el año
+            </label>
             <select
               className='form-control'
               onChange={this.handleOnChange}
             >
-              <option value=''>Selecciona el año</option>
+              {/* <option value=''>Selecciona el año</option> */}
               {this.renderOptions()}
             </select>
           </div>
