@@ -17,8 +17,8 @@ const Header = () => {
             <li className='nav-item'><NavLink className='nav-link' to='/contacto'>Contacto</NavLink></li> */}
           </ul>
           <ul className='navbar-nav ml-auto'>
-            <li className='nav-item'><a className='nav-link' href='https://www.facebook.com/omiqroo'><i className='fab fa-facebook-square fa-2x' /></a></li>
-            <li className='nav-item'><a className='nav-link' href='https://www.youtube.com/channel/UCaqljU1BgPVfQF36xp7bpyA'><i className='fab fa-youtube-square fa-2x' /></a></li>
+            <li className='nav-item'><a className='nav-link' target='_blank' rel='noopener noreferrer' href='https://www.facebook.com/omiqroo'><i className='fab fa-facebook-square fa-2x' /></a></li>
+            <li className='nav-item'><a className='nav-link' target='_blank' rel='noopener noreferrer' href='https://www.youtube.com/channel/UCaqljU1BgPVfQF36xp7bpyA'><i className='fab fa-youtube-square fa-2x' /></a></li>
           </ul>
         </div>
       </nav>
